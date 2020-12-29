@@ -1,1 +1,20 @@
 # Portifólio de mini projetos em Javascript
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script type="text/javascript" src="script.js" defer></script>
+  <title>FOGO DO DOOM</title>
+</head>
+
+<body>
+  <center>
+    <h1>Efeito fogo do DOOM</h1>
+    <div class="fireSquare" id="fireCanvas"></div>
+  </center>
+</body>
+
+</html>
