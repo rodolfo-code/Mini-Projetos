@@ -1,2 +1,1 @@
-# Mini-Projetos
-Portifólio de mini projetos em Javascript
+# Portifólio de mini projetos em Javascript
