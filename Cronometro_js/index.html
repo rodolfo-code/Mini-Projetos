@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="script.js" defer></script>
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <audio id="sound" src="sounds/alarme.mp3" style="display: none;"></audio>
+
+  <div class="timer-select">
+    <div class="time">
+      <h2>Minutos:</h2>
+      <select id="minutos" name="minutos"></select>
+    </div>
+
+    <div class="time">
+      <h2>Segundos:</h2>
+      <select id="segundos" name="segundos"></select>
+    </div>
+  </div>
+  <div class="button">
+    <button id="comecar">Começar</button>
+  </div>
+  <div class="container">
+    <div id="display">
+      <h1>00:00</h1>
+    </div>
+  </div>
+</body>
+
+</html>
