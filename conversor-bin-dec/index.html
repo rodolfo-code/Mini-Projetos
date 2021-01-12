@@ -9,17 +9,21 @@
   <title>Binary to Decimal</title>
 </head>
 
-<body id="enter">
+<body>
+  <div id="title">
+    <div class="title">
+      <h1>Bin 2 Dec</h1>
+      <h3>Binary to Decimal Converter</h3>
+    </div>
+  </div>
   <div class="container">
-    <h1>Bin 2 Dec</h1>
-    <h3>Binary to Decimal Converter</h3>
     <div class="input-number">
-      <label for="binary">Binary:</label>
+      <label for="binary" class="label-bin">Binary:</label>
       <input type="text" class="binary" id="binary" placeholder="Entry a binary number">
     </div>
     <div class="output">
       <label for="decimal">Decimal:</label>
-      <output class="decimal" id="decimal"></output>
+      <input class="decimal" readonly></input>
     </div>
     <input type='button' class="button" value='CONVERT'>
   </div>
